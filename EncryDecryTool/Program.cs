@@ -6,10 +6,10 @@ string keyStr = string.Empty;
 string ivStr = string.Empty;
 
 
-Console.WriteLine("請輸入key:");
+Console.WriteLine("請輸入key (長度為24):");
 keyStr = Console.ReadLine();
 
-Console.WriteLine("請輸入iv:");
+Console.WriteLine("請輸入iv (長度為16):");
 ivStr = Console.ReadLine();
 
 byte[] key = Encoding.UTF8.GetBytes(keyStr);
